@@ -1,0 +1,37 @@
+{
+  "name": "borax-exemple",
+  "version": "1.0.0",
+  "description": "A way to use borax",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:*",
+    "start:api-server": "node server.js",
+    "start:dev-server": "webpack-dev-server --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kane-thornwyrd/borax-exemple.git"
+  },
+  "author": "Jean-cédric Thérond <jean.cedric.t@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kane-thornwyrd/borax-exemple/issues"
+  },
+  "homepage": "https://github.com/kane-thornwyrd/borax-exemple#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "bootstrap": "^3.3.6",
+    "borax": "^2.1.0",
+    "express": "^4.13.4",
+    "npm-run-all": "^2.1.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
